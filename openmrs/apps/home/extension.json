@@ -1,4 +1,14 @@
 {
+  "personManagement": {
+    "id": "bahmni.personManagement",
+    "extensionPointId": "org.bahmni.home.dashboard",
+    "type": "link",
+    "translationKey": "Person Registration",
+    "url": "../personManagement/index.html",
+    "icon": "fa-user",
+    "order": 0,
+    "requiredPrivilege": "app:registration"
+  },
   "registration": {
     "id": "bahmni.registration",
     "extensionPointId": "org.bahmni.home.dashboard",
@@ -118,7 +128,7 @@
     "url": "../../openmrs/appointmentschedulingui/home.page",
     "icon": "fa fa-calendar",
     "order": 11,
-    "requiredPrivilege": "App: appointmentschedulingui.home"
+    "requiredPrivilege": "App:appointmentschedulingui.home"
   },
   "implementerInterface": {
     "id": "bahmni.implementer.interface",
@@ -150,5 +160,4 @@
     "order": 14,
     "requiredPrivilege": "app:appointments"
   }
-
 }
