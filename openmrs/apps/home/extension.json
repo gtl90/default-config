@@ -1,5 +1,5 @@
 {
-  "personManagement": {
+  "personregistration": {
     "id": "bahmni.personregistration",
     "extensionPointId": "org.bahmni.home.dashboard",
     "type": "link",
