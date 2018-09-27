@@ -1,10 +1,10 @@
 {
   "personManagement": {
-    "id": "bahmni.personManagement",
+    "id": "bahmni.personregistration",
     "extensionPointId": "org.bahmni.home.dashboard",
     "type": "link",
     "translationKey": "Person Registration",
-    "url": "../personManagement/index.html",
+    "url": "../personregistration/index.html",
     "icon": "fa-user",
     "order": 0,
     "requiredPrivilege": "app:registration"
